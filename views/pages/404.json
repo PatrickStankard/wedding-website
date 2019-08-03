@@ -1,0 +1,26 @@
+{
+    "key": "404",
+    "name": "404",
+    "navigation": [
+        {
+            "name": "Home",
+            "path": "/",
+            "active": false
+        },
+        {
+            "name": "RSVP",
+            "path": "/rsvp",
+            "active": false
+        },
+        {
+            "name": "Venue",
+            "path": "/venue",
+            "active": false
+        },
+        {
+            "name": "Travel",
+            "path": "/travel",
+            "active": false
+        }
+    ]
+}

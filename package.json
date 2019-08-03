@@ -1,0 +1,20 @@
+{
+    "name": "wedding-website",
+    "version": "0.0.1",
+    "description": "Katie Mischik and Patrick Stankard's wedding website",
+    "repository": "https://github.com/PatrickStankard/wedding-website",
+    "scripts": {
+        "build": "scripts/build.js",
+        "deploy": "scripts/deploy.js"
+    },
+    "author": "Patrick Stankard <me@patrickstankard.com>",
+    "license": "MIT",
+    "dependencies": {
+        "aws-sdk": "^2.503.0",
+        "install": "^0.13.0",
+        "js-beautify": "^1.10.1",
+        "mime-types": "^2.1.24",
+        "mustache": "^3.0.1",
+        "npm": "^6.10.2"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "key": "index",
+    "description": "We're getting married on November 2nd, 2019 in Brooklyn, NY.",
+    "navigation": [
+        {
+            "name": "Home",
+            "path": "/",
+            "active": true
+        },
+        {
+            "name": "RSVP",
+            "path": "/rsvp",
+            "active": false
+        },
+        {
+            "name": "Venue",
+            "path": "/venue",
+            "active": false
+        },
+        {
+            "name": "Travel",
+            "path": "/travel",
+            "active": false
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+@font-face{
+    font-family: 'Heuristica Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/Heuristica-Regular.woff') format('woff'), url('/fonts/Heuristica-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Heuristica Regular';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/Heuristica-Bold.woff') format('woff'), url('/fonts/Heuristica-Bold.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Heuristica Regular', var(--font-family-sans-serif);
+    color: var(--gray-dark);
+}
+
+a.nav-link {
+    color: var(--gray);
+}
+
+a.nav-link:hover, a.nav-link.active {
+    color: var(--gray-dark);
+}
+
+.header, .footer {
+    height: 96px;
+    overflow: hidden;
+}
+
+.header-text {
+    color: var(--gray);
+    letter-spacing: 0.4rem;
+}
+
+.invitation-text {
+    color: var(--gray);
+    letter-spacing: 0.175rem;
+}
+
+.cube-background {
+    background: url('/img/cube-repeating.png');
+    background-size: 223px 38px;
+}
+
+@media (max-width: 576px) {
+    .travel-map-iframe, .venue-map-iframe {
+        margin-bottom: 1.5rem;
+    }
+}

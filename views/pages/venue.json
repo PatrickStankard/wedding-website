@@ -1,0 +1,26 @@
+{
+    "key": "venue",
+    "name": "Venue",
+    "navigation": [
+        {
+            "name": "Home",
+            "path": "/",
+            "active": false
+        },
+        {
+            "name": "RSVP",
+            "path": "/rsvp",
+            "active": false
+        },
+        {
+            "name": "Venue",
+            "path": "/venue",
+            "active": true
+        },
+        {
+            "name": "Travel",
+            "path": "/travel",
+            "active": false
+        }
+    ]
+}
