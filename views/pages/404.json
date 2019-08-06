@@ -1,6 +1,7 @@
 {
     "key": "404",
     "name": "404",
+    "robots": "noindex,nofollow",
     "navigation": [
         {
             "name": "Home",

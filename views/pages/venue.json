@@ -1,6 +1,8 @@
 {
     "key": "venue",
     "name": "Venue",
+    "description": "We're getting married on November 2nd, 2019 in Brooklyn, NY. RSVP online, get directions, and more.",
+    "robots": "index,follow",
     "navigation": [
         {
             "name": "Home",
