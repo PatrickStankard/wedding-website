@@ -21,11 +21,13 @@ a.nav-link {
     color: var(--gray);
 }
 
-a.nav-link:hover, a.nav-link.active {
+a.nav-link:hover,
+a.nav-link.active {
     color: var(--gray-dark);
 }
 
-.header, .footer {
+.header,
+.footer {
     height: 96px;
     overflow: hidden;
 }
@@ -46,7 +48,9 @@ a.nav-link:hover, a.nav-link.active {
 }
 
 @media (max-width: 576px) {
-    .travel-map-iframe, .venue-map-iframe {
+    .travel-map-iframe,
+    .venue-map-iframe,
+    .venue-image {
         margin-bottom: 1.5rem;
     }
 }
