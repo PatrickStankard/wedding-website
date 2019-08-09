@@ -1,11 +1,11 @@
-@font-face{
+@font-face {
     font-family: 'Heuristica Regular';
     font-style: normal;
     font-weight: 400;
     src: url('/fonts/Heuristica-Regular.woff') format('woff'), url('/fonts/Heuristica-Regular.ttf') format('truetype');
 }
 
-@font-face{
+@font-face {
     font-family: 'Heuristica Regular';
     font-style: normal;
     font-weight: 700;
