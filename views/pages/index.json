@@ -1,6 +1,6 @@
 {
     "key": "index",
-    "description": "We're getting married on November 2nd, 2019 at Syndicated in Brooklyn, NY! Visit our wedding website to RSVP online, view pictures, get directions, and more.",
+    "description": "We got married on November 2nd, 2019 at Syndicated in Brooklyn, NY! Visit our website to look back on our wedding day.",
     "robots": "index,follow",
     "navigation": [
         {
@@ -9,18 +9,13 @@
             "active": true
         },
         {
-            "name": "RSVP",
-            "path": "/rsvp",
+            "name": "Photos",
+            "path": "/photos",
             "active": false
         },
         {
             "name": "Venue",
             "path": "/venue",
-            "active": false
-        },
-        {
-            "name": "Travel",
-            "path": "/travel",
             "active": false
         }
     ]

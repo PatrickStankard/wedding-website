@@ -9,18 +9,13 @@
             "active": false
         },
         {
-            "name": "RSVP",
-            "path": "/rsvp",
+            "name": "Photos",
+            "path": "/photos",
             "active": false
         },
         {
             "name": "Venue",
             "path": "/venue",
-            "active": false
-        },
-        {
-            "name": "Travel",
-            "path": "/travel",
             "active": false
         }
     ]
