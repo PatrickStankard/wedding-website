@@ -1,0 +1,71 @@
+<div class="row justify-content-center mt-4">
+    <div class="col-12 justify-content-center text-center">
+        <h6 class="text-lowercase invitation-text">Photographer: <a class="font-weight-bold text-decoration-none photographer-link" href="https://www.nicolerochelleweddings.com/" target="_blank">Nicole Rochelle</a></h6>
+    </div>
+</div>
+{{#nicole_rochelle_photos}}
+<div class="row justify-content-center">
+    {{#photos}}
+    <div class="col-6 col-sm-3 justify-content-center text-center mt-4">
+        <a href="/img/photos/nicole_rochelle/large/{{.}}" class="text-decoration-none photo-thumbnail" data-toggle="modal" data-target="#photo-modal">
+            <img src="/img/photos/nicole_rochelle/thumbs/{{.}}" alt="{{.}}" class="img-thumbnail">
+        </a>
+    </div>
+    {{/photos}}
+</div>
+{{/nicole_rochelle_photos}}
+<div class="row justify-content-center mt-4 pt-4">
+    <div class="col-12 justify-content-center text-center">
+        <h6 class="text-lowercase invitation-text">Photographer: <a class="font-weight-bold text-decoration-none photographer-link" href="http://www.rebeccalader.com/" target="_blank">Rebecca Lader</a></h6>
+    </div>
+</div>
+{{#rebecca_lader_photos}}
+<div class="row justify-content-center">
+    {{#photos}}
+    <div class="col-6 col-sm-3 justify-content-center text-center mt-4">
+        <a href="/img/photos/rebecca_lader/large/{{.}}" class="text-decoration-none photo-thumbnail" data-toggle="modal" data-target="#photo-modal">
+            <img src="/img/photos/rebecca_lader/thumbs/{{.}}" alt="{{.}}" class="img-thumbnail">
+        </a>
+    </div>
+    {{/photos}}
+</div>
+{{/rebecca_lader_photos}}
+<div class="row justify-content-center mt-4 pt-4">
+    <div class="col-12 justify-content-center text-center">
+        <h6 class="text-lowercase invitation-text">Photographer: <a class="font-weight-bold text-decoration-none photographer-link" href="https://outsnapped.com/" target="_blank">OutSnapped</a></h6>
+    </div>
+</div>
+{{#outsnapped_photos}}
+<div class="row justify-content-center">
+    {{#photos}}
+    <div class="col-6 col-sm-3 justify-content-center text-center mt-4">
+        <a href="/img/photos/outsnapped/large/{{.}}" class="text-decoration-none photo-thumbnail" data-toggle="modal" data-target="#photo-modal">
+            <img src="/img/photos/outsnapped/thumbs/{{.}}" alt="{{.}}" class="img-thumbnail">
+        </a>
+    </div>
+    {{/photos}}
+</div>
+{{/outsnapped_photos}}
+<div id="photo-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-sm-1 justify-content-center text-center mt-2 mb-2">
+                            <button type="button" class="btn btn-light btn-sm photo-previous" aria-label="Close">&laquo;</button>
+                        </div>
+                        <div class="col-12 col-sm-10 justify-content-center text-center">
+                            <a class="photo-download" target="_blank">
+                                <img class="photo-preview img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-sm-1 justify-content-center text-center mt-2 mb-2">
+                            <button type="button" class="btn btn-light btn-sm photo-next" aria-label="Next">&raquo;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
