@@ -17,12 +17,15 @@ body {
     color: var(--gray-dark);
 }
 
-a.nav-link {
+a.nav-link,
+a.photographer-link {
     color: var(--gray);
 }
 
 a.nav-link:hover,
-a.nav-link.active {
+a.nav-link.active,
+a.photographer-link:hover,
+a.photographer-link.active, {
     color: var(--gray-dark);
 }
 
@@ -53,4 +56,12 @@ a.nav-link.active {
     .venue-image {
         margin-bottom: 1.5rem;
     }
+}
+
+.modal-backdrop.show {
+    opacity: .7;
+}
+
+#photo-modal .modal-dialog {
+    max-width: 1500px;
 }
