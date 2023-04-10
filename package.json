@@ -10,7 +10,7 @@
     "author": "Patrick Stankard <me@patrickstankard.com>",
     "license": "MIT",
     "dependencies": {
-        "aws-sdk": "^2.503.0",
+        "aws-sdk": "^2.1354.0",
         "install": "^0.13.0",
         "js-beautify": "^1.10.1",
         "mime-types": "^2.1.24",
